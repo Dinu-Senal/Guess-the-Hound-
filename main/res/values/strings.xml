@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Guess the Hound</string>
+    <string name="tv_guess_the_hound">GUESS THE HOUND</string>
+    <string name="btn_identify_the_breed">Identify the Breed</string>
+    <string name="btn_identify_the_dog">Identify the Dog</string>
+    <string name="btn_search_dog_breeds">Search Dog Breeds</string>
+    <string name="tv_identify_the_breed">IDENTIFY THE BREED</string>
+    <string name="tv_identify_the_dog">IDENTIFY THE DOG</string>
+    <string name="tv_search_dog_breeds">SEARCH DOG BREEDS</string>
+    <string name="txt_search_dog_breed">Search Dog Breed</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_stop">Stop</string>
+
+    <string-array name="breed_spinner">
+        <item>African Hunting Dog</item>
+        <item>Boxer</item>
+        <item>Chesapeake Bay Retriever</item>
+        <item>Chow</item>
+        <item>Dhole</item>
+        <item>Dingo</item>
+        <item>Eskimo Dog</item>
+        <item>French Bulldog</item>
+        <item>German Shepherd</item>
+        <item>Great Dane</item>
+        <item>Mala Mute</item>
+        <item>Old English Sheepdog</item>
+        <item>Pug</item>
+        <item>Saint Bernard</item>
+        <item>Shetland Sheepdog</item>
+    </string-array>
+
+    <string name="toast_message_01">CORRECT!</string>
+    <string name="toast_message_02">WRONG!</string>
+    <string name="game_level">HARD LEVEL</string>
+    <string name="switch_on">ON</string>
+    <string name="switch_off">OFF</string>
+
+    <string name="text_message">(Delete any text in this field)</string>
+    <string name="description_home_button">Home_Button</string>
+
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5C6C7"
+    tools:context=".activity_identify_dog">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_id_the_dog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_identify_the_dog"
+                android:textColor="#0B0C10"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.050" />
+
+            <TextView
+                android:id="@+id/tv_random_img_name_V1"
+                android:layout_width="287dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="45dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="#34495E"
+                android:textAllCaps="true"
+                android:textSize="32sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_id_the_dog" />
+
+            <TextView
+                android:id="@+id/tv_random_img_name_V2"
+                android:layout_width="287dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="45dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="#34495E"
+                android:textAllCaps="true"
+                android:textSize="32sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_id_the_dog" />
+
+            <TextView
+                android:id="@+id/tv_random_img_name_V3"
+                android:layout_width="287dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="45dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="#34495E"
+                android:textAllCaps="true"
+                android:textSize="32sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_id_the_dog" />
+
+            <ImageButton
+                android:id="@+id/random_imageBtn_V1"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="180dp"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.03"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_id_the_dog" />
+
+            <ImageButton
+                android:id="@+id/random_imageBtn_V2"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="270dp"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.426"
+                app:layout_constraintStart_toEndOf="@+id/random_imageBtn_V1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/random_imageBtn_V3"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="50dp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/random_imageBtn_V1"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/btn_submit_02"
+                android:layout_width="250sp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="260dp"
+                android:background="@drawable/custom_button_v1"
+                android:text="@string/btn_next"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.909"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageButton
+                android:id="@+id/button"
+                android:layout_width="73dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/custom_button_v2"
+                android:contentDescription="@string/description_home_button"
+                android:onClick="home_screen"
+                android:src="@drawable/home_button_image"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_submit_02"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</RelativeLayout>
